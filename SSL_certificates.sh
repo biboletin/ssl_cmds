@@ -2,7 +2,7 @@
 
 
 #############
-General OpenSSL Commands
+# General OpenSSL Commands
 #############
 
 
@@ -22,7 +22,7 @@ General OpenSSL Commands
     openssl rsa -in privateKey.pem -out newPrivateKey.pem
 
 #############
-Checking Using OpenSSL
+# Checking Using OpenSSL
 #############
 # Check a Certificate Signing Request (CSR)
     openssl req -text -noout -verify -in CSR.csr
@@ -37,7 +37,7 @@ Checking Using OpenSSL
     openssl pkcs12 -info -in keyStore.p12
 
 #############
-Debugging Using OpenSSL
+# Debugging Using OpenSSL
 #############
 
 # Check an MD5 hash of the public key to ensure that it matches with what is in a CSR or private key
@@ -49,7 +49,7 @@ Debugging Using OpenSSL
     openssl s_client -connect www.paypal.com:443
 
 #############
-Converting Using OpenSSL
+# Converting Using OpenSSL
 #############
 
 # Convert p12 to PEM
